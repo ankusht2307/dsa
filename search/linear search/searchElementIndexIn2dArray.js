@@ -5,8 +5,7 @@ const findMinElementIndex = (array, target) => {
   // run for loop
   for (let row = 0; row < array.length; row++) {
     for (let col = 0; col < array[row].length; col++) {
-      const element = array[row][col];
-      if (element === target) return [row, col];
+      if (array[row][col] === target) return [row, col];
     }
   }
 
